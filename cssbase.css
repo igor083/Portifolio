@@ -1,4 +1,5 @@
 body{
+    display: flex;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgba(5, 17, 38,1);
     
@@ -31,9 +32,21 @@ body{
     color: #D2691E;
     font-size: 50px;
 } 
-.estrutura{
-    align-items: center;
+.trabalhos{
+    color: #d2691ebe;
+    display: flex;
+    background-color: rgb(8, 21, 45);
     justify-content: center;
+    width: 880px;
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10%;
+    border-style: initial;
+    border:5px solid #D2691E;
+}
+.estrutura{
+    
     color: #d2691ebe;
     display: flex;
     background-color: rgb(8, 21, 45);
@@ -67,7 +80,6 @@ body{
     
 }
 .infoPessoal h1,h3,h5{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 20px;
 }
 h3{
