@@ -1,0 +1,79 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(5, 17, 38,1);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 30px;
+    right: 600px;
+    
+  }
+.footer a {
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+ .footer ul{
+    
+    list-style:none ;
+    display: flex;
+    margin-left: 10px;
+}
+.footer i{
+
+    color: #D2691E;
+    font-size: 50px;
+} 
+.estrutura{
+    align-items: center;
+    justify-content: center;
+    color: #d2691ebe;
+    display: flex;
+    background-color: rgb(8, 21, 45);
+    justify-content: center;
+    width: 450px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 20%;
+    border-style: initial;
+    border:5px solid #D2691E;
+    
+}
+.infoPessoal{
+    width: 450px;
+    height:500px;
+    list-style:none ;
+    
+}
+.infoPessoal img{
+    margin-left: 120px;
+    margin-top: 10px;
+    top: 0px;
+   width: 200px;
+    border-radius: 20%;
+    
+}
+.infoPessoal h1,h3,h5{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.nome{
+    margin-top: 20px;
+}
+
+
+
+/*.footer a:hover{
+   background-color: rgba(00, 00, 0, 0.5); adiciona efeitos*/
