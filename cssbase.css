@@ -39,13 +39,18 @@ body{
     background-color: rgb(8, 21, 45);
     justify-content: center;
     width: 450px;
-    height: 600px;
+    height: 550px;
     margin-top: 50px;
     margin-left: 50px;
     border-radius: 20%;
     border-style: initial;
     border:5px solid #D2691E;
     
+}
+.estrutura div{
+    justify-content: center;
+    font-size: 50px;
+    margin-left: 108px;
 }
 .infoPessoal{
     width: 450px;
@@ -62,7 +67,7 @@ body{
     
 }
 .infoPessoal h1,h3,h5{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 20px;
 }
 h3{
